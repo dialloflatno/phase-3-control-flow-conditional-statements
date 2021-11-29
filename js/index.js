@@ -1,12 +1,15 @@
+
+
 /*
   Write a method `admin_login` that takes two arguments, a username and a
   password. If the username is "admin" or "ADMIN" and the password is "12345",
   return "Access granted". Otherwise, return "Access denied".
 */
 function adminLogin(username, password) {
-  if ((username === "admin" || username === "ADMIN") && password === "12345") {
+  if ((username === "admin" || username === "ADMIN") && password === "12345"){
     return "Access granted";
-  } else {
+  } 
+  else {
     return "Access denied";
   }
 }
